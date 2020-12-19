@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="#de1e09"
+        android:text="DHGHS Alumni Association"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"
+        android:textColor="#0957de"
+        android:text="Member's Signup"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#F349A4"
+        android:inputType="text"
+        android:hint="name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Batch"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#F349A4"
+        android:inputType="number"
+        android:hint="What's your SSC batch?"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/village"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#F349A4"
+        android:inputType="text"
+        android:hint="What's your village name? "/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email1"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#F349A4"
+        android:inputType="text"
+        android:hint="Enter your Email/phone number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password1"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#F349A4"
+        android:inputType="textPassword"
+        android:hint="Enter your password"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goBack"
+            android:text="Login"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#083480"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="saveData"
+            android:text="Register"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#083480"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

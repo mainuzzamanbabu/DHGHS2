@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:layout_height="match_parent"
+    tools:context=".AdminLoginActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="#de1e09"
+        android:text="DHGHS Alumni Association"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"
+        android:textColor="#0957de"
+        android:text="Admin login"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#F349A4"
+        android:inputType="text"
+        android:hint="Enter Email/Phone number as username"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#F349A4"
+        android:inputType="textPassword"
+        android:hint="Enter password"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textStyle="bold"
+            android:textColor="#B9387E"
+            android:textSize="20dp"/>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="#B9387E"
+        android:textSize="20dp"/>
+      </LinearLayout>
+
+</LinearLayout>
